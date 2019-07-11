@@ -1,7 +1,7 @@
 div.main{
     position: absolute;
     right: 0;
-    
+
     border: 1px solid black;
     width: 350px;
     padding: 10px;
@@ -10,9 +10,11 @@ div.main{
 }
 
 div.one{
-    width:  320px;
+    width:  220px;
     padding: 10px;
     border: 5px solid gray;
+
+   
     
 
 }
