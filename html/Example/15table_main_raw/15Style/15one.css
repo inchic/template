@@ -3,4 +3,5 @@ div.one{
     border-radius: 10px;
     color: white;
     /* vertical-align: middle; */
+    height: 100px;
 }

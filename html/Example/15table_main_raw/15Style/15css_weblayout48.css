@@ -1,0 +1,25 @@
+.topnav{
+    overflow:hidden;
+    /* background-color: #333; */
+    padding: 7px;
+    margin: 5px;
+    /* topnav 의 패딩은 상하크기 */
+    font-size: small;
+}
+.topnav a{
+    display: inline;
+    color: #f2f2f2;
+    /* color: black; */
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    /* topnav a는 inline으로 오른쪽으로 가고
+    이때 topnov a의 패딩은 좌우크기 */
+    margin: 5px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    /* background-color: black; */
+    color: black;
+}

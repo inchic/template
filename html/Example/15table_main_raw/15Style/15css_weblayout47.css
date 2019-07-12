@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    /* 브라우저와 엘리먼트 공간을 없애줌 */
+}
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
