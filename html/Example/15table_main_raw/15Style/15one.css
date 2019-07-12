@@ -2,4 +2,5 @@ div.one{
     background-color: green;
     border-radius: 10px;
     color: white;
+    /* vertical-align: middle; */
 }
