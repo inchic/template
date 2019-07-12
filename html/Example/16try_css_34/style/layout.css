@@ -1,0 +1,17 @@
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.column.side {
+    width: 20%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row {
+    display: inline;
+}

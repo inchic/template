@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .side_menu {
+            font-size: 13px;
+            border: 1px solid black;
+            padding: 1px;
+            /* position: absolute;
+            left: 0px; */
+            /* width: 100px; */  
+        }
+        
+        .side_menu ul{
+            margin: 0px 0px 0px 0px;
+            /* position: absolute; */
+            /* left: 0; */
+            padding: 1px;
+        }
+
+        .side_menu ul li {
+            list-style-type: none;
+            width: 150px;
+            border: 1px solid gray;
+            border-radius: 3px;
+            margin: 3px;
+            padding: 3px;
+            background-color: lightgray;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .side_menu ul a:hover{
+            background-color: green;
+        }
+
+
+
+        .footer {
+            background-color: gray;
+            border: 1px solid blue;
+            position: absolute;
+            bottom: 0px;
+            height: 75px;
+            border-radius: 5px;
+            margin: 0px 0px 0px 10px;
+            /* float: left; */
+        }
+    </style>
+
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/tablestyle.css">
+    <link rel="stylesheet" href="./style/layout.css">
+    <link rel="stylesheet" href="./style/sidebar.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to my <a href="./homepage.htm">Homepage</a></h1>
+        <p>Use the menu to select different Stylesheets</p>
+    </div>
+
+
+    <div class="row">
+        <div class="column side">
+            <div class="side_menu">
+                <ul>
+                        <a href="#"><li>Stylesheet 1</li></a>
+                    <li>Stylesheet 2</li>
+                    <li>Stylesheet 3</li>
+                    <li>Stylesheet 4</li>
+                    <li>No Stylesheet</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column middle">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can
+                change the
+                layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
+                links:
+            </p>
+            <a href="./5Stylesheet_1.html">Stylesheet 1</a> ,
+            <a href="./5Stylesheet_2.html">Stylesheet 2</a> ,
+            <a href="./5Stylesheet_3.html">Stylesheet 3</a> ,
+            <a href="./5Stylesheet_4.html">Stylesheet 4</a> ,
+            <a href="./5No_Stylesheet.html">No Stylesheet</a>.
+
+
+
+            <h3>Table</h3>
+            <table id="customers" border=1>
+                <tbody>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Königlich Essen</td>
+                        <td>Philip Cramer</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="column side">
+            <div class="side_bar">
+                <h3>Side-Bar</h3>
+                <p>Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eulsmod tincidut ut
+                    lagreet
+                    dolore magna aliquam eret volutpat.</p>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <div class="footer">
+        <small>aLorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eulsmod tincidut ut
+                lagreet
+                dolore magna aliquam eret volutpat.Lorem Ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eulsmod tincidut ut
+                lagreet
+                dolore magna aliquam eret volutpat.</small>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
