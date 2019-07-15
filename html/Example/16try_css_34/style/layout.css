@@ -1,17 +1,27 @@
 .column {
     float: left;
-    padding: 10px;
+    /* 모든 column에 float left 들어가는거 */
+
+    padding: 1px;
     border: 1px solid red;
+    margin: 0px;
 }
 
 .column.side {
-    width: 20%;
+    width: 24%;
+    /* float: left; */
+}
+
+.column.side.right {
+    float: right;
 }
 
 .column.middle {
     width: 50%;
+    /* float: left; */
 }
 
 .row {
     display: inline;
+    
 }

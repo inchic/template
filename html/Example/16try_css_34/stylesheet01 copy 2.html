@@ -4,50 +4,26 @@
 <head>
     <style>
         .footer {
-            background-color: gray;
-            border: 1px solid blue;
-            position: absolute;
-            bottom: 0px;
+            background-color: lightgray;
+            border: 1px solid gray;
+            
             height: 75px;
             border-radius: 5px;
             margin: 0px 0px 0px 10px;
-            /* float: left; */
-        }
+            float: left;
 
-        .ul{
-            background-color: gray;
+            /* position: absolute;
+            bottom: 0px; */
         }
-        
-        .ul a:hover{
-            background-color: green;
-        }
-
-        .p_class{
-            border: 1px solid black;
-            margin: 0px 0px 0px 0px;
-        }
-        .p_class a:hover{
-            background-color: green;
-        }
-
-        li.row:hover{
-            background-color: green;
-        }
-        li.row{
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        .hover:hover{
-            background-color: green;
-        }
-
     </style>
 
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/tablestyle.css">
     <link rel="stylesheet" href="./style/layout.css">
     <link rel="stylesheet" href="./style/sidebar.css">
+    <link rel="stylesheet" href="./style/side_menu.css">
+    <link rel="stylesheet" href="./style/list.css">
+    <link rel="stylesheet" href="./style/mid_menu.css">
 </head>
 
 <body>
@@ -59,46 +35,35 @@
 
     <div class="row">
         <div class="column side">
-            
-
-            <div class="class">asdfsdf</div>
 
 
 
-            <ul>
-                <li><div class="hover">Stylesheet 1</div></li>
-                <li><div class="hover">Stylesheet 1</div></li>
+
+
+            <ul class="ul">
+                <li>
+                    <div class="left"><a href="#">Stylesheet 1</a></div>
+                </li>
+                <li>
+                    <div class="left"><a href="#">Stylesheet 2</a></div>
+                </li>
+                <li>
+                    <div class="left"><a href="#">Stylesheet 3</a></div>
+                </li>
+                <li>
+                    <div class="left"><a href="#">Stylesheet 4</a></div>
+                </li>
+                <li>
+                    <div class="left"><a href="#">No Stylesheet</a></div>
+                </li>
             </ul>
-            <div class="hover">Stylesheet 1</div>
-            <div class="hover">Stylesheet 1</div>
 
 
-            <ul>
-                <li class="row">Stylesheet 1</li>
-                <li>Stylesheet 2</li>
-                <li>Stylesheet 3</li>
-                <li>Stylesheet 4</li>
-                <li>No Stylesheet</li>
-            </ul>
-            
-            
-                    <p class="p_class"><a href="#">Link01</a></p>
-                    <a href="#">Link02</a>
-                    <a href="#">Link03</a>
-
-            
-                   
-         
-           
 
 
-            <ul>
-                <li class="ul"><a href="#">Link01</a></li>
-                <li><a href="#">Link02</a></li>
-                <li><a href="#">Link03</a></li>
-                <li><a href="#">Link04</a></li>
-                <li><a href="#">Link05</a></li>
-            </ul>
+
+
+
 
 
 
@@ -113,11 +78,15 @@
                 layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
                 links:
             </p>
-            <a href="./5Stylesheet_1.html">Stylesheet 1</a> ,
-            <a href="./5Stylesheet_2.html">Stylesheet 2</a> ,
-            <a href="./5Stylesheet_3.html">Stylesheet 3</a> ,
-            <a href="./5Stylesheet_4.html">Stylesheet 4</a> ,
-            <a href="./5No_Stylesheet.html">No Stylesheet</a>.
+
+            <div class="mid">
+                <a href="./5Stylesheet_1.html">Stylesheet 1</a> ,
+                <a href="./5Stylesheet_2.html">Stylesheet 2</a> ,
+                <a href="./5Stylesheet_3.html">Stylesheet 3</a> ,
+                <a href="./5Stylesheet_4.html">Stylesheet 4</a> ,
+                <a href="./5No_Stylesheet.html">No Stylesheet</a>.
+            </div>
+
 
 
 
