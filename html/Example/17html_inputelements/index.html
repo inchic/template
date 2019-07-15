@@ -1,0 +1,73 @@
+<form action="./index.html" method="get">
+    Name: <input type="text" name="firstname" value="John" disabled>
+    <!-- → value="John" disabled    추가 -->
+    PW: <input type="password" name="psw" >
+    <!-- → readonly 추가 -->
+    <!--read only는 회원정보 수정시 기존값을 다시 보내준다. 새로수정은못한다.-->
+    <p>
+            Car Type: <select name="cars" size="3" multiple>
+    </p>
+    
+        <!-- → size="3" multiple 추가 시도 -->
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <p>
+        Gender: 
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+    </p>
+   
+    <p>
+        Vehicle:     
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car
+    </p>
+
+    <textarea name="message" rows="10" cols="30">Sample.</textarea>
+    <button type="button" onclick="alert('Hello World!')">Click!</button>
+    <input type="submit" value="Submit"><input type="reset">
+</form>
+
+
+<form action="./index.html" method="get">
+    <input type="text" name="firstname" value="John" disabled>
+    <!-- → value="John" disabled    추가 -->
+    <input type="password" name="psw" readonly>
+    <!-- → readonly 추가 -->
+    <select name="cars" size="3" multiple>
+        <!-- → size="3" multiple 추가 시도 -->
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+    </select>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+    <textarea name="message" rows="10" cols="30">Sample.</textarea>
+    <button type="button" onclick="alert('Hello World!')">Click!</button>
+    
+</form>
+<input type="submit" value="Submit"><input type="reset">
+
+<form action="./index.html" method="POST">
+    <input type="text" name="firstname" value="John" disabled>
+    <!-- → value="John" disabled    추가 -->
+    <input type="password" name="psw" readonly>
+    <!-- → readonly 추가 -->
+    <select name="cars" size="3" multiple>
+        <!-- → size="3" multiple 추가 시도 -->
+        <option value="volvo">Volvo</option>
+        <option value="audi">Audi</option>
+    </select>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+    <textarea name="message" rows="10" cols="30">Sample.</textarea>
+    <button type="button" onclick="alert('Hello World!')">Click!</button>
+    <input type="submit" value="Submit"><input type="reset">
+</form>
+
+<a href="./index.html">ddd</a>
